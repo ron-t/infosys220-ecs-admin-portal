@@ -1,2 +1,5 @@
 [tool.pytest.ini_options]
 spec_test_format = "{result} {docstring_summary} :: {name}"
+pythonpath = [
+    "."
+]
